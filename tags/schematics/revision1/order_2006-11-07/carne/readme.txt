@@ -6,12 +6,12 @@ No company
 
 3. Billing address: 
 Gibraltargatan 80-1043
-S-412 79 Göteborg
+S-412 79 Gothenburg
 Sweden
 
 4. Shipping address: 
 Gibraltargatan 80-1043
-S-412 79 Göteborg
+S-412 79 Gothenburg
 Sweden
 
 5. Shipping option: 
