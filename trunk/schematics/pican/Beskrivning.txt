@@ -1,0 +1,108 @@
+Konstruktion bakom kyllskåpet.
+Can.
+
+CAN
+
+Moduler som ska finnas.
+
+1. Ethernetmodul.
+En modul från CAN till Ethernet. Detta för fjärrstyrning, övervakning etc.
+Vanlig CAN modul + ethernetmodul(ev. från ethertemp) + EEPROM.
+
+2. Fönstermodul.
+Temperatur ute och inne + framtida persiennvridare.
+Vanlig CAN modul (+ ev. expanderkort för servo).
+http://www.hobbex.se/www/live/shoppages/viewShop.aspx?TreeID=16&ShopTreeID=7288&ProductID=6351
+
+3. Kylskåpsmodul.
+Temperatur kylskåp/frys, dörrsensor kylskåp/frys.
+Vanlig CAN modul.
+
+4. Ytterdörrsmodul.
+Dörrsensor, av/pålarm, statuslcd, menysystem.
+Vanlig CAN modul + expanderkort(etsa eta).
+
+5. IRmodul.
+IRmottagare.
+Vanlig CAN modul.
+
+6. Ljusstyrningsmodul (ev. 2x).
+För styrning av ljus.
+Vanlig CAN modul + dimmerkort (+ ev. extern strömförsörjning).
+
+7. Seriellnod. (ev. USB).
+Vanlig CAN modul + expanderkort.
+
+ELLER BÄTTRE:
+
+7. USBNod.
+Vanlig CAN modul + carne-usbexpansion
+http://www.arune.se/projekt/data/media/homeautomation/svnimages/trunk-usbexpansion-usbexpansion.sch.png
+FT232RL
+
+Kort som behövs:
+7 st Vanlig CAN modul. 18F2685+MCP2551+12 till 5V reg+iscp.
+1 st Ethernetmodul. Ethertemp eller ny med eeprom? Etsa eta?
+1 st Ytterdörrsexpanderkort, etsar på eta.
+4 st dimmerkort, två kanaler var. Eller en stor? eller två fyra? Etsa eta(ev. olimex om blir bra).
+Dock en stund in i framtiden.
+1 st Seriellexpanderkort. Banekort.
+
+Olimex nu:
+8 st Vanlig CAN modul. Se över, saknas något? Testa prototyp.
+
+Olimex sen:
+Dimmermoduler.
+
+Eta nu:
+Ethernetmodul med EEPROM.
+
+Eta sen:
+Ytterdörrsexpanderkort
+
+Hemma nu:
+Seriellexpanderkort.
+
+Hemma sen:
+Fönsterexanderkort.
+
+
+Ytterligare som behövs:
+Lådor för alla konstruktioner.
+Kabel!
+Tkors.
+
+
+Tre(fyra) temperatursensorer för kylskåp, frys, inne(, ute).
+TC47A
+
+Tre dörrsensorer för kylskåp, frys och ytterdörr.
+Dörr CO 22-865, skåp: Tryckbrytare eller dubbla metallbläck.
+
+En summer.
+Den stora.
+
+En siren.
+Ev? Ska ha?
+
+En avlarmningsutrustning.
+kod eller kort.
+
+
+Larmindikator.
+Lysdiod.
+
+
+Programmet:
+Läser temperatur med sekundintervall.
+Interupptar dörröppning.
+
+Sparar 20 senaste eventen för varje händelse:
+Vid varje dörröppning/stängning ska tid, temp och övriga dörrar loggas.
+
+Vart tredje timme spara till eeprom.
+
+
+På status sida visa nuvarande tid, temp, dörrstatus och 20 senaste event för varje.
+
+
