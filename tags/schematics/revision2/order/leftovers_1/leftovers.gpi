@@ -1,0 +1,60 @@
+Photoplotter Info File: D:/Storage/Elektronik/Eagle projects/tags/schematics/revision2/order/leftovers_1/leftovers.gpi
+
+ Date              : 2007-02-28 16:36:41 
+ Plotfile          : D:/Storage/Elektronik/Eagle projects/tags/schematics/revision2/order/leftovers_1/leftovers.sts
+ Apertures         : generated: 
+ Device            : Gerber photoplotter with RS-274-X aperture generation
+
+Parameter settings:
+
+ Emulate Apertures : no
+ Emulate Thermal   : no
+ Emulate Annulus   : no
+ Tolerance Draw  + :  0.00 %
+ Tolerance Draw  - :  0.00 %
+ Tolerance Flash + :  0.00 %
+ Tolerance Flash - :  0.00 %
+ Rotate            : no
+ Mirror            : yes
+ Optimize          : yes
+ Auto fit          : yes
+ OffsetX           : 0inch
+ OffsetY           : 0inch
+
+Plotfile Info:
+
+ Coordinate Format : 2.4
+ Coordinate Units  : Inch
+ Data Mode         : Absolute
+ Zero Suppression  : None
+ End Of Block      : *
+
+Apertures used:
+
+ Code     Shape     Size                  used
+
+ D10      draw      0.0100inch              40
+ D11      draw      0.0300inch              60
+ D12      round     0.0571inch              20
+ D13      square    0.0571inch               4
+ D14      rectangle 0.0512inch x 0.0472inch    10
+ D15      round     0.0712inch             199
+ D16      draw      0.0160inch             148
+ D17      square    0.0712inch               3
+ D18      rectangle 0.0472inch x 0.0512inch    10
+ D19      round     0.0665inch              20
+ D20      draw      0.0000inch               7
+ D21      round     0.0472inch               5
+ D22      round     0.0660inch               8
+ D23      round     0.0792inch              44
+ D24      square    0.0792inch               7
+ D25      round     0.1200inch               8
+ D26      round     0.2039inch               8
+ D27      oval      0.1232inch x 0.0672inch     8
+ D28      round     0.0840inch              33
+ D29      round     0.0425inch               2
+ D30      oval      0.0720inch x 0.1320inch    20
+ D31      round     0.0475inch             107
+ D32      round     0.0480inch             137
+ D33      round     0.0528inch              84
+

@@ -1,0 +1,41 @@
+Photoplotter Info File: D:/Storage/Elektronik/Eagle projects/tags/schematics/revision2/order/buscon_1/buscon.gpi
+
+ Date              : 2007-02-28 16:23:22 
+ Plotfile          : D:/Storage/Elektronik/Eagle projects/tags/schematics/revision2/order/buscon_1/buscon.sts
+ Apertures         : generated: 
+ Device            : Gerber photoplotter with RS-274-X aperture generation
+
+Parameter settings:
+
+ Emulate Apertures : no
+ Emulate Thermal   : no
+ Emulate Annulus   : no
+ Tolerance Draw  + :  0.00 %
+ Tolerance Draw  - :  0.00 %
+ Tolerance Flash + :  0.00 %
+ Tolerance Flash - :  0.00 %
+ Rotate            : no
+ Mirror            : yes
+ Optimize          : yes
+ Auto fit          : yes
+ OffsetX           : 0inch
+ OffsetY           : 0inch
+
+Plotfile Info:
+
+ Coordinate Format : 2.4
+ Coordinate Units  : Inch
+ Data Mode         : Absolute
+ Zero Suppression  : None
+ End Of Block      : *
+
+Apertures used:
+
+ Code     Shape     Size                  used
+
+ D10      draw      0.0100inch               4
+ D11      draw      0.0300inch              60
+ D12      round     0.0665inch             576
+ D13      draw      0.0000inch             144
+ D14      round     0.0472inch             144
+
