@@ -21,4 +21,5 @@ airmail
 DSS 1 pce
 
 7. Notes: 
-No de-panelization
+No de-panelization.
+Traces and spaces should be 10mil.

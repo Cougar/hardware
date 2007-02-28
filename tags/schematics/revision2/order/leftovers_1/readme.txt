@@ -23,3 +23,4 @@ DSS 1 pce
 7. Notes: 
 Panelization is done with eagle layer 20 (dimension) and copied to copper, mask and silc. 
 There should be 10 cards.
+Traces and spaces should be 10mil.
