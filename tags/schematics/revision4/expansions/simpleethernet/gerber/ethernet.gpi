@@ -1,0 +1,43 @@
+Photoplotter Info File: /home/arune/Documents/homeautomation/tmpsvn/hardware/tags/schematics/revision4/expansions/simpleethernet/gerber/ethernet.gpi
+
+ Date              : 12/10/2008 21:53:25 
+ Plotfile          : /home/arune/Documents/homeautomation/tmpsvn/hardware/tags/schematics/revision4/expansions/simpleethernet/gerber/ethernet.sts
+ Apertures         : generated: 
+ Device            : Gerber photoplotter with RS-274-X aperture generation
+
+Parameter settings:
+
+ Emulate Apertures : no
+ Emulate Thermal   : no
+ Emulate Annulus   : no
+ Tolerance Draw  + :  0.00 %
+ Tolerance Draw  - :  0.00 %
+ Tolerance Flash + :  0.00 %
+ Tolerance Flash - :  0.00 %
+ Rotate            : no
+ Mirror            : yes
+ Optimize          : yes
+ Auto fit          : yes
+ OffsetX           : 0inch
+ OffsetY           : 0inch
+
+Plotfile Info:
+
+ Coordinate Format : 2.4
+ Coordinate Units  : Inch
+ Data Mode         : Absolute
+ Zero Suppression  : None
+ End Of Block      : *
+
+Apertures used:
+
+ Code     Shape     Size                  used
+
+ D10      round     0.0674inch              25
+ D11      round     0.1379inch               2
+ D12      square    0.0634inch               1
+ D13      round     0.0634inch               7
+ D14      round     0.0966inch               2
+ D15      rectangle 0.0960inch x 0.0560inch     3
+ D16      rectangle 0.0946inch x 0.1497inch     1
+

@@ -1,0 +1,41 @@
+Photoplotter Info File: /home/arune/Documents/homeautomation/tmpsvn/hardware/tags/schematics/revision4/expansions/4-way-CoreCard/gerber/4-way-CoreCard.gpi
+
+ Date              : 12/10/2008 21:32:43 
+ Plotfile          : /home/arune/Documents/homeautomation/tmpsvn/hardware/tags/schematics/revision4/expansions/4-way-CoreCard/gerber/4-way-CoreCard.sts
+ Apertures         : generated: 
+ Device            : Gerber photoplotter with RS-274-X aperture generation
+
+Parameter settings:
+
+ Emulate Apertures : no
+ Emulate Thermal   : no
+ Emulate Annulus   : no
+ Tolerance Draw  + :  0.00 %
+ Tolerance Draw  - :  0.00 %
+ Tolerance Flash + :  0.00 %
+ Tolerance Flash - :  0.00 %
+ Rotate            : no
+ Mirror            : yes
+ Optimize          : yes
+ Auto fit          : yes
+ OffsetX           : 0inch
+ OffsetY           : 0inch
+
+Plotfile Info:
+
+ Coordinate Format : 2.4
+ Coordinate Units  : Inch
+ Data Mode         : Absolute
+ Zero Suppression  : None
+ End Of Block      : *
+
+Apertures used:
+
+ Code     Shape     Size                  used
+
+ D10      round     0.1143inch               1
+ D11      round     0.0634inch              20
+ D12      round     0.0671inch               4
+ D13      round     0.0730inch               2
+ D14      round     0.0513inch               2
+
