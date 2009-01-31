@@ -1,0 +1,55 @@
+Photoplotter Info File: /home/arune/eagle/trunk/schematics/HomeAutomation/AVR/expansion/RGBdriverModule/gerber/RGBdriverModuleOpAmp.gpi
+
+ Date              : 10/26/2008 14:37:03 
+ Plotfile          : /home/arune/eagle/trunk/schematics/HomeAutomation/AVR/expansion/RGBdriverModule/gerber/RGBdriverModuleOpAmp.sts
+ Apertures         : generated: 
+ Device            : Gerber photoplotter with RS-274-X aperture generation
+
+Parameter settings:
+
+ Emulate Apertures : no
+ Emulate Thermal   : no
+ Emulate Annulus   : no
+ Tolerance Draw  + :  0.00 %
+ Tolerance Draw  - :  0.00 %
+ Tolerance Flash + :  0.00 %
+ Tolerance Flash - :  0.00 %
+ Rotate            : no
+ Mirror            : yes
+ Optimize          : yes
+ Auto fit          : yes
+ OffsetX           : 0inch
+ OffsetY           : 0inch
+
+Plotfile Info:
+
+ Coordinate Format : 2.4
+ Coordinate Units  : Inch
+ Data Mode         : Absolute
+ Zero Suppression  : None
+ End Of Block      : *
+
+Emulated Apertures:
+
+ -------- Requested Aperture --------  ------ Used Aperture ------
+
+ Shape     Size                  used  Code     Shape     Size
+
+ square    0.1261inch               8  D13      draw      0.0252inch
+
+Apertures used:
+
+ Code     Shape     Size                  used
+
+ D10      round     0.1143inch               2
+ D11      draw      0.0060inch              35
+ D12      round     0.0780inch              21
+ D13      draw      0.0252inch               8
+ D14      round     0.0730inch              10
+ D15      round     0.0513inch              10
+ D16      rectangle 0.0710inch x 0.0540inch     2
+ D17      rectangle 0.0720inch x 0.0060inch     1
+ D18      rectangle 0.0480inch x 0.0470inch     8
+ D19      round     0.0516inch              20
+ D20      round     0.0556inch               8
+

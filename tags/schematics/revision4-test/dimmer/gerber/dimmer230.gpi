@@ -1,0 +1,47 @@
+Photoplotter Info File: /home/arune/eagle/trunk/schematics/HomeAutomation/AVR/expansion/dimmer/gerber/dimmer230.gpi
+
+ Date              : 10/26/2008 15:02:53 
+ Plotfile          : /home/arune/eagle/trunk/schematics/HomeAutomation/AVR/expansion/dimmer/gerber/dimmer230.sts
+ Apertures         : generated: 
+ Device            : Gerber photoplotter with RS-274-X aperture generation
+
+Parameter settings:
+
+ Emulate Apertures : no
+ Emulate Thermal   : no
+ Emulate Annulus   : no
+ Tolerance Draw  + :  0.00 %
+ Tolerance Draw  - :  0.00 %
+ Tolerance Flash + :  0.00 %
+ Tolerance Flash - :  0.00 %
+ Rotate            : no
+ Mirror            : yes
+ Optimize          : yes
+ Auto fit          : yes
+ OffsetX           : 0inch
+ OffsetY           : 0inch
+
+Plotfile Info:
+
+ Coordinate Format : 2.4
+ Coordinate Units  : Inch
+ Data Mode         : Absolute
+ Zero Suppression  : None
+ End Of Block      : *
+
+Apertures used:
+
+ Code     Shape     Size                  used
+
+ D10      round     0.1143inch               2
+ D11      draw      0.0060inch              35
+ D12      round     0.0780inch              21
+ D13      octagon   0.0674inch               4
+ D14      round     0.1080inch               5
+ D15      round     0.1180inch               2
+ D16      round     0.0634inch               8
+ D17      round     0.0671inch               1
+ D18      round     0.0848inch               2
+ D19      round     0.0516inch              17
+ D20      round     0.0556inch              10
+
