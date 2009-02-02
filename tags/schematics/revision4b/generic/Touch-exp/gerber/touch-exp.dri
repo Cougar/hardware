@@ -1,0 +1,37 @@
+Drill Station Info File: /home/arune/eagle/tags/schematics/revision4b/generic/Touch-exp/gerber/touch-exp.dri
+
+ Date              :  2/02/2009 18:53:42 
+ Drills            : generated
+ Device            : Excellon drill station
+
+Parameter settings:
+
+ Tolerance Drill + :  2.50 %
+ Tolerance Drill - :  2.50 %
+ Rotate            : no
+ Mirror            : no
+ Optimize          : yes
+ Auto fit          : yes
+ OffsetX           : 0inch
+ OffsetY           : 0inch
+ Layers            : Drills Holes
+
+Drill File Info:
+
+ Data Mode         : Absolute
+ Units             : 1/10000 Inch
+
+Drills used:
+
+ Code  Size       used
+
+ T01   0.0157inch     3
+ T02   0.0315inch     4
+ T03   0.0354inch     8
+ T04   0.0591inch     1
+
+Total number of drills: 16
+
+Plotfiles:
+
+ /home/arune/eagle/tags/schematics/revision4b/generic/Touch-exp/gerber/touch-exp.drd
