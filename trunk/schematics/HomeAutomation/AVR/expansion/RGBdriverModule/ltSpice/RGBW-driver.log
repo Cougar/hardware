@@ -1,25 +1,25 @@
-Circuit: * C:\Program Files\LTC\LTspiceIV\RGBW-driver.asc
+Circuit: * Z:\home\linus\Dokument\auml_hardware\schematics\HomeAutomation\AVR\expansion\RGBdriverModule\ltSpice\RGBW-driver.asc
 
-u2:dvc: Activation energy, Eg=1.33, too small, limited to 0.1
+u2:dvc: Activation energy, Eg=4.42639e-306, too small, limited to 0.1
 u1:dvc: Activation energy, Eg=1.33, too small, limited to 0.1
 Direct Newton iteration for .op point succeeded.
 
-Date: Thu Apr 08 19:09:07 2010
-Total elapsed time: 1.223 seconds.
+Date: Fri Apr 09 22:58:08 2010
+Total elapsed time: 1.809 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 21107
-traniter = 21061
-tranpoints = 5020
-accept = 3768
-rejected = 1252
-matrix size = 107
-fillins = 207
+totiter = 43279
+traniter = 43230
+tranpoints = 9420
+accept = 7004
+rejected = 2416
+matrix size = 100
+fillins = 158
 solver = Alternate
-Thread vector: 42.3/23.8[2] 8.5/6.6[2] 6.2/4.2[2] 3.7/2.5[2]  2592/500
-Matrix Compiler1: 23,6 KB object code size  12.3/6.6/[4.5]
-Matrix Compiler2: 14,1 KB object code size  3.8/4.5/[3.5]
+Thread vector: 22.9/20.6[2] 7.1/5.6[2] 4.9/4.8[1] 1.9/2.0[1]  2592/500
+Matrix Compiler1: 18,2 KB object code size  9.3/5.3/[2.7]
+Matrix Compiler2: 12,6 KB object code size  3.4/3.9/[1.6]
 
 
