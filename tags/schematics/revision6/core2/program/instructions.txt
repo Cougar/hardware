@@ -1,0 +1,13 @@
+Programming instructions
+------------------------
+
+Part must be programmed with hex file AND 3 fuses.
+
+Part name: atmega328p
+Hex file: bios.hex
+High fuse: 0xdc
+Low fuse: 0x62
+Ext fuse: 0x04
+
+If using avrdude this is the command to run:
+avrdude -p atmega328p -P usb -c avrispmkII -U flash:w:bios.hex -u -U efuse:w:0x04:m -U hfuse:w:0xdc:m -U lfuse:w:0xe2:m
