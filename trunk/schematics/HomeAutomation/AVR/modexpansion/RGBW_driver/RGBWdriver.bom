@@ -1,0 +1,31 @@
+Partlist exported from /home/linus/Dokument/aumlHardware/schematics/HomeAutomation/AVR/modexpansion/RGBW_driver/RGBWdriver.sch at 2011-05-01 20.12
+
+Qty Value                     Device                    Parts                                 
+4                             C-EUC1210                 C1, C2, C3, C4                        
+1                             PINHD-1X3                 JP1                                   
+1                             R-EUR0603                 R60                                   
+4                             R-TRIM                    R45, R46, R47, R48                    
+7                             SCHOTTKY-DIODE            D1, D2, D3, D4, D5, D6, D7            
+1                             SJ_2_NO"                  SJ1                                   
+4   0R1                       R-EUR1206                 R9, R10, R11, R12                     
+4   1k                        R-EUR0603                 R49, R50, R51, R52                    
+8   5k                        R-EUR0603                 R5, R6, R7, R8, R13, R14, R15, R16    
+4   10                        R-EUR0603                 R33, R34, R35, R36                    
+8   10k                       R-EUR0603                 R29, R30, R31, R32, R37, R38, R39, R40
+4   10n                       C-EUC0603                 C7, C8, C9, C10                       
+4   12X12                     12X12                     L1, L2, L3, L4                        
+1   12k                       R-EUR0603                 R59                                   
+4   15k                       R-EUR0603                 R41, R42, R43, R44                    
+5   40k                       R-EUR0603                 R53, R54, R55, R56, R57               
+1   47k                       R-EUR0603                 R58                                   
+1   74HC126D                  74HC126D                  IC3                                   
+5   100n                      C-EUC0603                 C5, C6, C11, C12, C13                 
+8   250k                      R-EUR0603                 R1, R2, R3, R4, R17, R20, R23, R26    
+8   500                       R-EUR0603                 R18, R19, R21, R22, R24, R25, R27, R28
+5   BLOCK2                    BLOCK2                    X1, X2, X3, X4, X7                    
+1   CORETWO_LAYOUTISPHOLES_CU CORETWO_LAYOUTISPHOLES_CU X5                                    
+1   EEUFK1V102L               CPOL-EUTT5D10             C14                                   
+1   LM339D                    LM339D                    IC4                                   
+1   MICROMATCH-4              MICROMATCH-4              X6                                    
+4   NFT3055L175               NFT3055L175               U1, U2, U3, U4                        
+2   TL082D                    TL082D                    IC1, IC2                              
