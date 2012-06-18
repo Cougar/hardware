@@ -1,0 +1,7 @@
+qtouch 0.100 0.120
+coreadapter*rotated90 0.100 0.830
+coreadapter*rotated90 0.994 0.830
+sixway 1.887 0.830
+coreadapter*rotated90 2.202 0.830
+coreadapter*rotated90 3.096 0.830
+qtouch 0.100 3.034
