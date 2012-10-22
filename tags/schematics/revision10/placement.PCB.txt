@@ -1,0 +1,10 @@
+coreadapter*rotated90 0.100 0.120
+coreadapter*rotated90 0.994 0.120
+coreadapter*rotated90 1.887 0.120
+coreadapter*rotated90 2.781 0.120
+4way*rotated90 0.100 2.299
+4way*rotated90 0.789 2.299
+sixway*rotated90 1.477 2.299
+sixway*rotated90 1.477 2.614
+sixway*rotated90 1.477 2.929
+sixway*rotated90 1.477 3.243
