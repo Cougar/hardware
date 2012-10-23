@@ -4,14 +4,21 @@
 # of course, as it wastes space.
 Row {
   Col {
-    Qtouch
     Row {
       coreadapter Rotate
       coreadapter Rotate
-      sixway
       coreadapter Rotate
       coreadapter Rotate
     }
-    Qtouch
+    Row {
+      4way Rotate
+      4way Rotate
+      Col {
+	sixway Rotate
+	sixway Rotate
+	sixway Rotate
+	sixway Rotate
+      }
+    }
   }
 }
