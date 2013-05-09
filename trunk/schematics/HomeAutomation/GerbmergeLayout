@@ -2,23 +2,28 @@
 # it in a 2x4 array. To demonstrate rotation, the second column
 # consists of rotated jobs. You wouldn't really do it this way,
 # of course, as it wastes space.
+#Row {
+#  Col {
+#    Row {
+#      coreadapter Rotate
+#      coreadapter Rotate
+#      coreadapter Rotate
+#      coreadapter Rotate
+#    }
+#    Row {
+#      4way Rotate
+#      4way Rotate
+#      Col {
+#	sixway Rotate
+#	sixway Rotate
+#	sixway Rotate
+#	sixway Rotate
+#      }
+#    }
+#  }
+#}
+
 Row {
-  Col {
-    Row {
-      coreadapter Rotate
-      coreadapter Rotate
-      coreadapter Rotate
-      coreadapter Rotate
-    }
-    Row {
-      4way Rotate
-      4way Rotate
-      Col {
-	sixway Rotate
-	sixway Rotate
-	sixway Rotate
-	sixway Rotate
-      }
-    }
-  }
+  proghead
+  odbconn
 }

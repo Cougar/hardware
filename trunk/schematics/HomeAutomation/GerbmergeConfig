@@ -104,7 +104,7 @@ OutlineLayerFile = %(mergeout)s.oln
 # You need a patch from:
 # https://github.com/space-age-robotics/gerbmerge-patched/commit/5078c7b33439912c465fb33fc0082b82cfac3687
 # to get this to work
-OutlineLayers = *toplayer,*bottomlayer,*TopSilkscreen,*BottomSilkscreen,*TopSoldermask,*BottomSoldermask
+#OutlineLayers = *toplayer,*bottomlayer,*TopSilkscreen,*BottomSilkscreen,*TopSoldermask,*BottomSoldermask
 
 # Optional additional Gerber layer on which to draw horizontal and vertical
 # lines describing where to score (i.e., V-groove) the panel so that jobs
@@ -401,4 +401,34 @@ BoardOutline=%(prefix)s.do
 # (i.e., no *.def file) to indicate how many times this job should appear in
 # the final panel. When using manual placement, this option is ignored.
 Repeat = 4
+
+[proghead]
+Prefix=%(projdir)s/AVR/modexpansion/odbConnector/Gerber/odbConnector
+
+*TopLayer=%(prefix)s.GTL
+*BottomLayer=%(prefix)s.GBL
+*TopSilkscreen=%(prefix)s.GTO
+*BottomSilkscreen=%(prefix)s.GBO
+*TopSoldermask=%(prefix)s.GTS
+*BottomSoldermask=%(prefix)s.GBS
+Drills=%(prefix)s.TXT
+BoardOutline=%(prefix)s.do
+
+Repeat = 2
+
+[odbconn]
+Prefix=%(projdir)s/../generic/testerProgHeader/Gerber/testerProgHeader_v2
+
+*TopLayer=%(prefix)s.GTL
+*BottomLayer=%(prefix)s.GBL
+*TopSilkscreen=%(prefix)s.GTO
+*BottomSilkscreen=%(prefix)s.GBO
+*TopSoldermask=%(prefix)s.GTS
+*BottomSoldermask=%(prefix)s.GBS
+Drills=%(prefix)s.TXT
+BoardOutline=%(prefix)s.do
+
+Repeat = 2
+
+
 
