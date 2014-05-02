@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -840,6 +840,20 @@ chip</description>
 <text x="-3.459" y="1.859" size="1.27" layer="25" ratio="20">&gt;NAME</text>
 <text x="-3.459" y="-3.129" size="1.27" layer="27" ratio="20">&gt;VALUE</text>
 </package>
+<package name="D0603">
+<wire x1="-1.475" y1="0.975" x2="1.475" y2="0.975" width="0.05" layer="39"/>
+<wire x1="1.475" y1="0.975" x2="1.475" y2="-0.975" width="0.05" layer="39"/>
+<wire x1="1.475" y1="-0.975" x2="-1.475" y2="-0.975" width="0.05" layer="39"/>
+<wire x1="-1.475" y1="-0.975" x2="-1.475" y2="0.975" width="0.05" layer="39"/>
+<wire x1="0.254" y1="0.381" x2="0.254" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="0.254" y1="-0.381" x2="-0.127" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="0" x2="0.254" y2="0.381" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0.381" x2="-0.254" y2="-0.381" width="0.127" layer="21"/>
+<smd name="C" x="-0.85" y="0" dx="0.9906" dy="1.016" layer="1"/>
+<smd name="A" x="0.85" y="0" dx="0.9906" dy="1.016" layer="1"/>
+<text x="-1.524" y="0.762" size="1.27" layer="25" ratio="20">&gt;NAME</text>
+<text x="-1.524" y="-2.032" size="1.27" layer="27" ratio="20">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="D">
@@ -898,9 +912,9 @@ chip</description>
 <wire x1="1.27" y1="0" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
 <text x="-7.62" y="8.1026" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="5.3086" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="-7.62" y="-2.54" visible="off" length="short" direction="pas"/>
-<pin name="1" x="-7.62" y="2.54" visible="off" length="short" direction="pas"/>
-<pin name="3" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<pin name="2" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="2.54" y="0" visible="pad" length="point" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -939,6 +953,15 @@ ultra fast rectifier, 3 A</description>
 </technologies>
 </device>
 <device name="SMP" package="DO-220AA">
+<connects>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0603" package="D0603">
 <connects>
 <connect gate="1" pin="A" pad="A"/>
 <connect gate="1" pin="C" pad="C"/>
@@ -1624,7 +1647,7 @@ DDEController.pdf</description>
 <part name="C12" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="V17" library="supply2" deviceset="VCC" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU" device="R0402" value="10k"/>
+<part name="R1" library="rcl" deviceset="R-EU" device="R0402"/>
 <part name="V18" library="supply2" deviceset="VCC" device=""/>
 <part name="V19" library="supply2" deviceset="GND" device=""/>
 <part name="R50" library="rcl" deviceset="R-EU" device="R0402"/>
@@ -1665,10 +1688,11 @@ DDEController.pdf</description>
 <part name="V16" library="supply2" deviceset="GND" device=""/>
 <part name="D4" library="diode" deviceset="DUALTVS" device="SOT23" value="NUP2105L"/>
 <part name="V20" library="supply2" deviceset="GND" device=""/>
-<part name="R4" library="rcl" deviceset="R-EU" device="R0402" value="10k"/>
+<part name="R4" library="rcl" deviceset="R-EU" device="R0402"/>
 <part name="V21" library="supply2" deviceset="VCC" device=""/>
 <part name="V22" library="supply2" deviceset="GND" device=""/>
 <part name="Q1" library="xtal_CSTCE" deviceset="CSTCE" device="SMD"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 </parts>
 <sheets>
 <sheet>
@@ -1776,7 +1800,7 @@ DDEController.pdf</description>
 <attribute name="NAME" x="-17.78" y="-43.18" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-17.78" y="-68.58" size="1.778" layer="96"/>
 </instance>
-<instance part="R3" gate="R" x="10.16" y="-53.34" rot="R90"/>
+<instance part="R3" gate="R" x="7.62" y="-53.34" rot="R90"/>
 <instance part="V16" gate="GND" x="5.08" y="-63.5" smashed="yes">
 <attribute name="VALUE" x="3.175" y="-66.675" size="1.778" layer="96"/>
 </instance>
@@ -1788,6 +1812,7 @@ DDEController.pdf</description>
 <instance part="V21" gate="G$1" x="-33.02" y="-35.56" rot="MR0"/>
 <instance part="V22" gate="GND" x="-55.88" y="-7.62"/>
 <instance part="Q1" gate="G$1" x="-55.88" y="2.54"/>
+<instance part="C4" gate="C" x="27.94" y="78.74"/>
 </instances>
 <busses>
 </busses>
@@ -1850,6 +1875,10 @@ DDEController.pdf</description>
 <pinref part="C43" gate="C" pin="2"/>
 <pinref part="C42" gate="C" pin="2"/>
 <pinref part="C41" gate="C" pin="2"/>
+<pinref part="C4" gate="C" pin="2"/>
+<wire x1="27.94" y1="73.66" x2="27.94" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="71.12" x2="35.56" y2="71.12" width="0.1524" layer="91"/>
+<junction x="35.56" y="71.12"/>
 </segment>
 <segment>
 <wire x1="111.76" y1="68.58" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
@@ -2175,9 +2204,14 @@ DDEController.pdf</description>
 <pinref part="IC5" gate="G$1" pin="VIN"/>
 </segment>
 <segment>
-<wire x1="35.56" y1="86.36" x2="35.56" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="86.36" x2="35.56" y2="83.82" width="0.1524" layer="91"/>
 <label x="35.56" y="86.36" size="1.778" layer="95"/>
 <pinref part="C41" gate="C" pin="1"/>
+<pinref part="C4" gate="C" pin="1"/>
+<wire x1="35.56" y1="83.82" x2="35.56" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="81.28" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="83.82" x2="35.56" y2="83.82" width="0.1524" layer="91"/>
+<junction x="35.56" y="83.82"/>
 </segment>
 <segment>
 <wire x1="68.58" y1="-2.54" x2="68.58" y2="-7.62" width="0.1524" layer="91"/>
@@ -2299,10 +2333,10 @@ DDEController.pdf</description>
 <pinref part="X2" gate="-5" pin="S"/>
 </segment>
 <segment>
-<wire x1="15.24" y1="-48.26" x2="10.16" y2="-48.26" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="-48.26" x2="2.54" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="-48.26" x2="7.62" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-48.26" x2="2.54" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="-50.8" x2="15.24" y2="-48.26" width="0.1524" layer="91"/>
-<junction x="10.16" y="-48.26"/>
+<junction x="7.62" y="-48.26"/>
 <label x="15.24" y="-48.26" size="1.778" layer="95"/>
 <pinref part="IC2" gate="MCP2551" pin="CANH"/>
 <pinref part="R3" gate="R" pin="2"/>
@@ -2331,9 +2365,8 @@ DDEController.pdf</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<wire x1="10.16" y1="-58.42" x2="5.08" y2="-58.42" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="-58.42" x2="5.08" y2="-55.88" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="-55.88" x2="2.54" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-58.42" x2="2.54" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-58.42" x2="2.54" y2="-55.88" width="0.1524" layer="91"/>
 <pinref part="R3" gate="R" pin="1"/>
 <pinref part="IC2" gate="MCP2551" pin="LOAD"/>
 </segment>
