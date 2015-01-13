@@ -24,6 +24,6 @@
 #}
 
 Row {
-  proghead
+  odbconn
   odbconn
 }

@@ -403,7 +403,7 @@ BoardOutline=%(prefix)s.do
 Repeat = 4
 
 [proghead]
-Prefix=%(projdir)s/AVR/modexpansion/odbConnector/Gerber/odbConnector
+Prefix=%(projdir)s/../generic/testerProgHeader/Gerber/testerProgHeader_v2
 
 *TopLayer=%(prefix)s.GTL
 *BottomLayer=%(prefix)s.GBL
@@ -417,7 +417,7 @@ BoardOutline=%(prefix)s.do
 Repeat = 2
 
 [odbconn]
-Prefix=%(projdir)s/../generic/testerProgHeader/Gerber/testerProgHeader_v2
+Prefix=%(projdir)s/AVR/modexpansion/odbConnector/Gerber/odbConnector
 
 *TopLayer=%(prefix)s.GTL
 *BottomLayer=%(prefix)s.GBL
