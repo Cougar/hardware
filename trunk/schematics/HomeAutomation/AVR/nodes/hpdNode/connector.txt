@@ -1,0 +1,15 @@
+		1 7  
+GND		2 8  
+WAKE	3 9  UART-H
+		4 10 UART-L
+KL30	5 11 
+ALRM	6 12 
+		
+
+		2  1  
+GND		4  3  
+WAKE	6  5  UART-H
+		8  7  UART-L
+KL30	10 9 
+ALRM	12 11 
+		
