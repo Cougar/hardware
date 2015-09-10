@@ -117,7 +117,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TS5A3167">
+<deviceset name="TS5A3167" prefix="IC">
 <gates>
 <gate name="G$1" symbol="S" x="0" y="0"/>
 </gates>
